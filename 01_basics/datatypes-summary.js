@@ -20,3 +20,27 @@ const myFunction=function(){
 
 console.log(typeof myFunction);
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubename  = "dhavaldotcom"
+let anotheNameme = myYoutubename
+
+console.log(myYoutubename);
+console.log(anotheNameme);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "dhaval@gmail.com"
+
+console.log(userTwo.email);
+console.log(userOne.email);
+
+ 
+
